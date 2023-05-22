@@ -1,9 +1,7 @@
 # Niyontron
----
-gitea: none
-include_toc: toc
----
 
+## Table of Content
+- [Folder Structure](#Folder-Structure)
 ## Folder Structure 
 The folder structure was taught in Web Development course. It is a basic structure and we can update and evolve as we progress.
 
