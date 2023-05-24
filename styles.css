@@ -1,17 +1,24 @@
 /* Navbar color, position*/
+body {
+  background-color: rgb(235, 235, 235);
+}
+
 .navbar {
-  background-color: #702151;
+  background-color: #f8f8fb;
   position: fixed;
+  padding: 4px;
   top: 0;
   left: 0;
   width: 100%;
+  shape-outside: margin-box;
+  box-shadow: 0 4px 4px 0 #9da5b2;
 }
 
 /*Navbar items color, style*/
 .navbar a {
   float: left;
   display: block;
-  color: #f8ddf0;
+  color: #193463;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -23,10 +30,10 @@
   justify-content: center;
 }
 
-/* Center align the navbar links*/
+/* Right align the navbar links*/
 .nav-signup-in {
   display: flex;
-  justify-content: right;
+  margin-left: auto;
 }
 
 /* Hovering mouse pointer color change*/
@@ -46,5 +53,5 @@
 }
 
 .main {
-  margin-top: 50px;
+  margin-top: 65px;
 }
